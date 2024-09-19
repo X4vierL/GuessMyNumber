@@ -8,7 +8,7 @@ The game will display whether the guess is too high, too low, or correct.
 If you guess correctly, the game congratulates you and tracks your high score.
 If you run out of tries, you lose the game and will need to start over.
 
-Features
+Features: 
 Randomly generated secret number between 1 and 100.
 7 tries to guess the correct number.
 Hint system to tell if the guess is higher or lower than the secret number.
@@ -16,7 +16,7 @@ A high score system that records the highest number of tries left when winning.
 Responsive input: Allows checking guesses via button click or by pressing Enter.
 Color changes to the background when you win or lose.
 
-DOM Elements
+DOM Elements: 
 Message Display: Provides feedback messages (e.g., correct guess, too high, too low, or invalid input).
 Tries Display: Displays the number of tries left.
 Number Display: Displays the secret number when the game is won.
@@ -25,7 +25,7 @@ Check Button: Button to submit a guess.
 Again Button: Button to reset and start a new game.
 Highscore Display: Displays the highest number of tries remaining when the game is won.
 
-Functions Overview
+Functions Overview: 
 1. generateSecretNumber()
 Generates a random secret number between the minimum and maximum guess range (1 and 100).
 2. updateMessage(message)
